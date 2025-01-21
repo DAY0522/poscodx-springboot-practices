@@ -11,6 +11,8 @@
     <modules>
         <module>springboot-helloworld</module>
         <module>springboot-example</module>
+        <module>springboot-myapplication</module>
+        <module>springboot-webmvc</module>
     </modules>
 
     <properties>

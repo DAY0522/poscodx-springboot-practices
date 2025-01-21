@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/springboog-webmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-example/springboot-webmvc/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-helloworld/springboot-example/pom.xml" />
       </set>
     </option>

@@ -10,19 +10,29 @@
 	</parent>
 
 	<groupId>com.poscodx</groupId>
-	<artifactId>springboot-helloworld</artifactId>
+	<artifactId>springboot-webmvc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<properties>
-		<java.version>21</java.version>
-	</properties>
-
 	<dependencies>
+		<!-- springboot core starter-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter</artifactId>-->
+<!--		</dependency>-->
+
+		<!-- springboot starter for thymeleaf-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
+		<!-- springboot starter for web(mvc) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- springboot starter for testing -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -30,13 +40,7 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-
+	<properties>
+		<java.version>21</java.version>
+	</properties>
 </project>

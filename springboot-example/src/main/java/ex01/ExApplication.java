@@ -2,14 +2,13 @@ package ex01;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 import java.util.Map;
 
 @SpringBootApplication
-public class ExApplication { // Bootstrapping Class
+public class ExApplication { // Bootstrap Class
 
     @Bean
     public Map<?, ?> myMap() {
